@@ -1,0 +1,86 @@
+{  
+   "gcm_api_key" :"AIzaSyDnB1db9-Y0-u3rKadLtm0iRc6LVTrKWO8",
+   
+   "error" : {  
+
+      "msg_invalid_param" 	: {  
+
+         "result" 	: "error",
+         "message"	: "Invalid request parameters."
+
+      },
+
+      "msg_empty_param" 	: {
+
+      	"result"	:"error",
+      	"message"	:"Parameters should not be empty."
+
+      },
+
+      "msg_reg_failure" 	: {
+
+      	"result"	:"error",
+      	"message"	:"Registration failure."
+
+      },
+
+      "msg_reg_exists" 	: {
+
+      	"result"	:"error",
+      	"message"	:"Device already registered."
+
+      },
+
+      "msg_del_failure" : {
+
+         "result" : "error",
+         "message" : "Unable to remove device"
+         
+      },
+     "msg_update_failure" : {
+
+       "result" : "error",
+       "message" : "Unable to update device"
+
+     },
+
+      "msg_send_failure" : {
+
+         "result" : "error",
+         "message" : "Unable to send message"
+         
+      }
+
+   },
+
+   "success" : {
+
+   	  "msg_reg_success"	: {
+
+   	  	"result"	: "success",
+   	  	"message"   : "Device successfully registered."
+
+   	  },
+
+        "msg_del_success"  : {
+
+         "result" :  "success",
+         "message" : "Device successfully removed"
+
+        },
+
+      "msg_update_success"  : {
+
+        "result" :  "success",
+        "message" : "Device successfully updated"
+
+      },
+
+        "msg_send_success"  : {
+
+         "result" :  "success",
+         "message" : "Accepted the request to send message"
+
+        }
+   }
+}
